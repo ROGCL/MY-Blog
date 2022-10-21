@@ -1,0 +1,19 @@
+.pagination {
+  width: 100%;
+  position: relative;
+  padding: min(20px, 0.2rem) 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: max(10px, 0.1rem);
+}
+
+.posiLeft {
+  position: absolute;
+  left: 0;
+}
+
+.posiRight {
+  position: absolute;
+  right: 0;
+}

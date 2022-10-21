@@ -1,0 +1,32 @@
+.itemWrap {
+  margin-bottom: 38px;
+}
+
+.title {
+  font-size: max(16px, 0.13rem);
+  color: #4c4c57;
+  font-weight: 600;
+}
+
+.title > span {
+  font-size: max(13px, 0.11rem);
+  font-weight: 500;
+  color: #4c4c57;
+  margin-left: 12px;
+}
+
+.item {
+  padding-left: 10px;
+  font-size: max(12px, 0.1rem);
+  margin-top: 18px;
+  color: #50505c;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item:hover {
+  cursor: pointer;
+  color: #0066cc;
+}

@@ -1,0 +1,53 @@
+.header {
+  background-color: #fff;
+  width: 100%;
+  padding: 0.05rem;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition-property: transform;
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.author {
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: max(14px, 0.11rem);
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #484853;
+}
+
+.avatar {
+  border-radius: 6px;
+  width: max(35px, 0.28rem);
+  height: max(35px, 0.28rem);
+  margin-right: 10px;
+}
+
+.hide {
+  transform: translateY(-105%);
+}
+
+.backTop {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: #1088e9;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  right: 0.6rem;
+  bottom: 0.6rem;
+}

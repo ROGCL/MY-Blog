@@ -1,0 +1,8 @@
+.docNavigation {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  max-width: 300px;
+  overflow: auto;
+  padding-left: 20px;
+}
